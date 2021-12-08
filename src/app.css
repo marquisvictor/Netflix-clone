@@ -12,8 +12,8 @@ html {
 body {
     background-image: radial-gradient(
             circle,
-            rgba(56, 150, 139, 0.17690826330532217) 42%,
-            rgba(46, 39, 37, 0.8323704481792717) 63%
+            rgba(56, 150, 139, 0.17690826330532217) 33%,
+            rgba(0, 0, 0, 0.7875525210084033) 46%
         ),
         url(https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png);
     background-size: cover;
