@@ -1,14 +1,19 @@
 import React from 'react';
+import './signin.css';
 
 function SignIn() {
     return (
-        <div className='login__body'>
-            <h1>Sign In</h1>
-            <form>
+        <div className='signin__body'>
+            <h1 className='signin__header-text'>Sign In</h1>
+            <form className='signin__form'>
                 <input type='text' placeholder='Email' />
                 <input type='text' placeholder='Password' />
-                <button>Sign in</button>
+                <button type='button'>Sign in</button>
             </form>
+            <div className='signin__helper-text'>
+                <p>remember me</p>
+                <p>Need help?</p>
+            </div>
         </div>
     );
 }
